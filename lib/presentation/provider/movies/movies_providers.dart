@@ -7,7 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 final nowPlayingMoviesProvider = StateNotifierProvider<MoviesNotifier ,List<Movie>>((ref) {
   final fetchMoreMovies=ref.watch(moviReposiotoryProvider).getNowPlaying;
   return MoviesNotifier(
-      fetchMoreMovies:fetchMoreMovies, );
+      fetchMoreMovies:fetchMoreMovies );
 } );
 
 

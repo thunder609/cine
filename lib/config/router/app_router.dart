@@ -1,6 +1,5 @@
 
 
-import 'dart:js';
 
 import 'package:cine/presentation/screems/moves/home_screem.dart';
 import 'package:go_router/go_router.dart';

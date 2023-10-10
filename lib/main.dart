@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'config/router/app_router.dart';
 
 Future<void> main() async{
+
   await dotenv.load(fileName: '.env');
   runApp(const
       ProviderScope(child:MainApp()
